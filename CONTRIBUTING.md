@@ -196,7 +196,7 @@ uv pip install -r store/requirements.txt -r store/requirements-dev.txt  # Using 
 Initialize the test databases with:
 
 ```bash
-python -m store.app.db create
+python -m www.app.db create
 ```
 
 ### Running the FastAPI Application
